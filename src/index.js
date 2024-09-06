@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import firstAction from './App';
+import Firstaction from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <firstAction/>
+    <Firstaction/>
   </React.StrictMode>
 );
 
