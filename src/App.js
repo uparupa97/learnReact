@@ -1,5 +1,5 @@
 
-import Carrd from './coMPonents/Carrd';
+import Login from './coMPonents/Login';
 
 function Firstaction() {
 // logic 
@@ -114,7 +114,7 @@ if (user.isLoggedin && user.role === 'admin') {
 
   return (
     <>
-    <Carrd/>
+    <Login/>
   </>
   ); 
 

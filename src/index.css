@@ -1,3 +1,9 @@
+@import url(./LoginPage.css); 
+
+html { 
+  background-color: black;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.card {
+  max-width: 280px;
+  border: 1px solid #eb6262; 
+  border-radius: 10px;
+  padding: 16px; 
+  margin: 10px; 
+}
+
+.kimwoobin { 
+  width: 100%; /* 이미지가 카드의 전체 너비를 차지하도록 */
+  height: auto; 
+  display: block;
+  margin: 0 auto 16px auto; /* 이미지 중앙 정렬 및 하단 여백 추가 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 이미지에 그림자 추가 */
+  transition: transform 0.3s ease; /* 호버 시 부드러운 확대 효과 */
+}
+
+.kimwoobin:hover {
+  transform: scale(1.05); /* 호버 시 이미지가 약간 확대됨 */
+}
+
+.cardTitle {
+  font-size: 25px; 
+  font-weight: bold;
+}
+
+.cardSubText { 
+  font-size: 14px;
+}
+
+.cardButton { 
+  background-color: rgb(31, 49, 79);
+  color: white; 
+  border: 0; 
+  padding: 8px 8px; 
+  border-radius: 10px;
+}
+
+.cardButton:hover { 
+  background-color: rgb(101, 101, 223); 
+}
+
+
