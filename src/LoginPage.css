@@ -62,8 +62,8 @@ input:focus {
     width: 90%; /* 부모 요소에 맞춰 너비가 자동으로 조절 */
     max-width: 450px; /* 최대 너비 500px */
     min-width: 180px; /* 최소 너비 200px */
-    padding: 9px 12px;
-    margin: 12px 0;
+    padding: 9px;
+    margin: 12px;
     background-color: rgb(26, 25, 25);
     color: white; 
     border: 2px solid gray; 
@@ -75,4 +75,14 @@ input:focus {
 .SocialButton:hover {
     background-color: #eee9e9;
     color: #262424;
+}
+
+.Google { 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 8px;
+}
+
+.Continue {
+    transform: translateY(-10px);
 }
