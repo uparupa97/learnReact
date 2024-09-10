@@ -6,8 +6,10 @@ const SocialButton = () => {
   return (
     <div >
     <button type="button" className="SocialButton">
+        <div className="alignitems">
         <img className="Google" alt="G" src={GoogleLogo} />
-        Continue with google
+        <span className="Continue">Continue with google</span>
+        </div>
     </button>
  </div>
   )
