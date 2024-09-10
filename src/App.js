@@ -1,7 +1,8 @@
 
-// import Counter from './coMPonents/Counter';
-import Carrd from './coMPonents/Carrd'
-import {useState} from 'react'
+import Counter from './coMPonents/Counter';
+// import Carrd from './coMPonents/Carrd'
+// import {useState} from 'react'
+// import Login from './coMPonents/Login';
 // import Login from './coMPonents/Login';
 
 function Firstaction() {
@@ -113,29 +114,30 @@ function Firstaction() {
 //   console.log("관리자 페이지 접근 가능")
 // } else {console.log("관리자 페이지 접근 불가 ");}
 
-const [title, setTitle] = useState("초기값"); 
+// const [title, setTitle] = useState("초기값"); 
 
 
-const urlClickButton = () => { 
-  window.location.href = "https://namu.wiki/w/%EA%B9%80%EC%9A%B0%EB%B9%88" ; 
+// const urlClickButton = () => { 
+//   window.location.href = "https://namu.wiki/w/%EA%B9%80%EC%9A%B0%EB%B9%88" ; 
 
-}
+// }
 
-const urlsecondClick = () => {
-  console.log("final clicks");
+// const urlsecondClick = () => {
+//   console.log("final clicks");}
  
-}
+
 
 //view 
 
   return (
     <>
-    <Carrd title={title} subText="후츠릿짱짱"/>
+    {/* <Carrd title={title} subText="후츠릿짱짱"/>
     <button type="button" onClick={() => setTitle("변경했습니다")}>Title변경</button> 
     <Carrd onCardbuttonClick={urlClickButton} imageLink={"https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQBOyAeOot-s1ukUGW6iVmN4UlGBcWx1fd_5_PdxgOiticKByaWNg44t9Wwyh5u5WMg"} title={"김우빈짱"} subTitle={"이것은 김우빈 사진입니다."}/>
-    <Carrd onCardbuttonClick={urlsecondClick} imageLink={"https://img.hankyung.com/photo/202405/01.36878930.1.jpg"} title={"변우석"} subText={"다음은 변우석 사진입니다."}/>
+    <Carrd onCardbuttonClick={urlsecondClick} imageLink={"https://img.hankyung.com/photo/202405/01.36878930.1.jpg"} title={"변우석"} subText={"다음은 변우석 사진입니다."}/> */}
 
-     {/* <Counter/>   */}
+     <Counter/>  
+     {/* <Login/> */}
   </>
   ); 
 

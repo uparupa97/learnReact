@@ -1,9 +1,9 @@
 import React from 'react'
 
-const InputBox = () => {
+const InputBox = ({putPlaceholder}) => {
   return (
     <div className="InputBox">
-        <input className="input email" placeholder="Email" id="idform"/>
+        <input className="input email" placeholder={putPlaceholder} id="idform"/>
     </div>
   )
 }
