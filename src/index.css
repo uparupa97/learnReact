@@ -1,5 +1,6 @@
 @import url(./LoginPage.css); 
 @import url(./Counter.css);
+@import url(./CommentBox.css);
 
 .wrap {
   height: 100%; 
